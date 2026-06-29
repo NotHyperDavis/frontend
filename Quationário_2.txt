@@ -1,20 +1,29 @@
 ﻿Parte 1: Verdadeiro ou Falso 
 1. O comando git init cria uma pasta invisível chamada .git no teu diretório. Sem ela, a pasta é apenas uma pasta normal e o Git não monitoriza nada.
 Verdadeiro
+
 2. O comando git status mostra-te as linhas de código exatas que foram alteradas dentro de um ficheiro.
 Falso
+
 3. Se criares um branch chamado feature-login, podes apagá-lo imediatamente com o comando git branch -d feature-login mesmo estando atualmente dentro dele.
 Falso
+
 4. Um conflito de merge acontece automaticamente sempre que juntamos dois branches, independentemente de termos mexido nas mesmas linhas ou não.
 Falso
+
 5. O comando git reset reescreve o passado (apaga commits), pelo que só deve ser usado em commits locais que ainda não foram enviados para o repositório remoto.
 Verdadeiro
+
 6. O GitHub funciona como uma cópia de segurança na nuvem, mas apenas guarda a versão mais recente dos teus ficheiros, perdendo o histórico de commits local.
 Falso
+
 7. O comando git branch -M main serve para renomear o branch atual (por exemplo, de master) para main.
 Verdadeiro
+
 8. Fazer git pull logo no início do dia de trabalho é uma excelente prática que ajuda a evitar conflitos desnecessários com o código que os teus colegas enviaram na véspera.
 Verdadeiro
+
+
 Parte 2: Escolha Múltipla (Apenas uma opção correta)
 
 9. Qual é o comando correto para visualizar todo o histórico de commits feitos no projeto?
