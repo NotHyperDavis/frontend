@@ -1,0 +1,78 @@
+﻿Parte 1: Verdadeiro ou Falso 
+1. O comando git init cria uma pasta invisível chamada .git no teu diretório. Sem ela, a pasta é apenas uma pasta normal e o Git não monitoriza nada.
+
+2. O comando git status mostra-te as linhas de código exatas que foram alteradas dentro de um ficheiro.
+
+3. Se criares um branch chamado feature-login, podes apagá-lo imediatamente com o comando git branch -d feature-login mesmo estando atualmente dentro dele.
+
+4. Um conflito de merge acontece automaticamente sempre que juntamos dois branches, independentemente de termos mexido nas mesmas linhas ou não.
+
+5. O comando git reset reescreve o passado (apaga commits), pelo que só deve ser usado em commits locais que ainda não foram enviados para o repositório remoto.
+
+6. O GitHub funciona como uma cópia de segurança na nuvem, mas apenas guarda a versão mais recente dos teus ficheiros, perdendo o histórico de commits local.
+
+7. O comando git branch -M main serve para renomear o branch atual (por exemplo, de master) para main.
+
+8. Fazer git pull logo no início do dia de trabalho é uma excelente prática que ajuda a evitar conflitos desnecessários com o código que os teus colegas enviaram na véspera.
+
+Parte 2: Escolha Múltipla (Apenas uma opção correta)
+
+9. Qual é o comando correto para visualizar todo o histórico de commits feitos no projeto?
+A) git status
+B) git show
+C) git log
+D) git history
+
+10. Se queres criar um branch novo chamado teste e saltar para dentro dele imediatamente com um único comando, o que deves escrever?
+A) git branch teste
+B) git checkout -b teste
+C) git merge teste
+D) git remote teste
+
+11. O que acontece na realidade durante um merge do tipo "Fast-Forward"?
+A) O Git cria um commit de fusão completamente novo e pede uma mensagem.
+B) O Git crasha porque deteta que os branches são idênticos.
+C) O Git apenas move o ponteiro do branch principal para a frente, porque este não tinha recebido alterações novas.
+D) O Git apaga o histórico do branch secundário.
+
+12. Após resolveres visualmente um conflito de merge no VS Code, quais são os comandos que tens de dar no terminal para concluir a fusão?
+A) git merge --continue apenas.
+B) git status e depois git push.
+C) git add <ficheiro> e depois git commit.
+D) git reset --hard.
+
+13. Qual é a principal diferença entre o git reset e o git revert?
+A) O reset é para ficheiros e o revert é para pastas.
+B) O reset apaga commits do histórico (passado); o revert cria um commit novo (futuro) que desfaz o efeito de um commit antigo.
+C) O revert apaga o repositório inteiro e o reset apenas reinicia o PC.
+D) Não há diferença, fazem exatamente o mesmo.
+
+14. Para que serve o comando git remote add origin <url>?
+A) Para fazer o download de um projeto do GitHub para o teu PC.
+B) Para dizer ao Git local qual é o endereço da na nuvem (GitHub) onde vais guardar o código.
+C) Para apagar o repositório local.
+D) Para mudar o nome de utilizador do GitHub.
+
+15. O que faz a flag -u no comando git push -u origin main?
+A) Significa "Update" e atualiza o Git para a versão mais recente.
+B) Serve para "Undo" (desfazer) o último commit enviado por engano.
+C) Associa o teu branch local ao remoto (upstream), fazendo com que o Git memorize o caminho para que no futuro só tenhas de escrever git push.
+D) Obriga o utilizador a introduzir a password.
+
+16. O comando git pull é, na verdade, a junção automática de que dois comandos em pano de fundo?
+A) git fetch + git merge
+B) git push + git status
+C) git clone + git add
+D) git checkout + git branch
+
+17. Qual é o nome do ficheiro especial que deves criar na raiz do projeto para dizer ao Git para ignorar ficheiros temporários ou lixo gerado pelo Java (como ficheiros .class)?
+A) config.git
+B) .gitignore
+C) hidden.txt
+D) .gitkeep
+
+18. Se alterares um ficheiro localmente, não fizeres commit, e perceberes que o código está todo errado, qual comando usas para deitar fora essas alterações locais e voltar ao estado do último commit?
+A) git rm
+B) git clear
+C) git restore <nome-do-ficheiro>
+D) git rollback
