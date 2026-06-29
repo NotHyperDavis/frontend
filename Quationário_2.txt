@@ -28,25 +28,33 @@ C) git log
 B) git checkout -b teste
 
 
+
 11. O que acontece na realidade durante um merge do tipo "Fast-Forward"?
+
 
 C) O Git apenas move o ponteiro do branch principal para a frente, porque este não tinha recebido alterações novas.
 
 
 12. Após resolveres visualmente um conflito de merge no VS Code, quais são os comandos que tens de dar no terminal para concluir a fusão?
 
+
 C) git add <ficheiro> e depois git commit.
+
 
 13. Qual é a principal diferença entre o git reset e o git revert?
 
 B) O reset apaga commits do histórico (passado); o revert cria um commit novo (futuro) que desfaz o efeito de um commit antigo.
 
 
+
 14. Para que serve o comando git remote add origin <url>?
 
 B) Para dizer ao Git local qual é o endereço da na nuvem (GitHub) onde vais guardar o código.
 
+
+
 15. O que faz a flag -u no comando git push -u origin main?
+
 
 C) Associa o teu branch local ao remoto (upstream), fazendo com que o Git memorize o caminho para que no futuro só tenhas de escrever git push.
 
@@ -55,11 +63,15 @@ C) Associa o teu branch local ao remoto (upstream), fazendo com que o Git memori
 A) git fetch + git merge
 
 
+
+
 17. Qual é o nome do ficheiro especial que deves criar na raiz do projeto para dizer ao Git para ignorar ficheiros temporários ou lixo gerado pelo Java (como ficheiros .class)?
 
 B) .gitignore
 
 
+
 18. Se alterares um ficheiro localmente, não fizeres commit, e perceberes que o código está todo errado, qual comando usas para deitar fora essas alterações locais e voltar ao estado do último commit?
+
 
 C) git restore <nome-do-ficheiro>
