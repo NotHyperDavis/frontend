@@ -1,10 +1,8 @@
-// ============================================================
-// David — Portfolio pessoal — interatividade
-// ============================================================
+
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  // ---- 1. Efeito de "escrita" no título da hero (index.html) ----
+  
   const typedEl = document.querySelector('[data-typed]');
   if (typedEl) {
     const words = JSON.parse(typedEl.getAttribute('data-typed'));
@@ -35,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     tick();
   }
 
-  // ---- 2. Barras de "extrusão" animadas quando entram no ecrã (sobre.html) ----
+  
   const bars = document.querySelectorAll('.extrude-fill');
   if (bars.length) {
     const observer = new IntersectionObserver((entries) => {
@@ -50,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
     bars.forEach((bar) => observer.observe(bar));
   }
 
-  // ---- 3. Botão "estado da impressora" — alterna estado dinâmico (projetos.html) ----
+  
   const printerBtn = document.getElementById('printer-toggle');
   if (printerBtn) {
     const statusText = document.getElementById('printer-status');
@@ -78,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // ---- 4. Validação do formulário de contacto (contacto.html) ----
+  
   const form = document.getElementById('contact-form');
   if (form) {
     const feedback = document.getElementById('form-feedback');
