@@ -1,0 +1,17 @@
+info:
+  name: "11"
+  type: http
+
+http:
+  method: GET
+  url: https://rickandmortyapi.com/api/character/150
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

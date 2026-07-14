@@ -1,0 +1,18 @@
+info:
+  name: "16"
+  type: http
+
+http:
+  method: GET
+  url: https://rickandmortyapi.com/api/character?name=Morty Smith
+  params:
+    - name: name
+      value: Morty Smith
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

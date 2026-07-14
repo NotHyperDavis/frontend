@@ -1,0 +1,18 @@
+info:
+  name: "20"
+  type: http
+
+http:
+  method: GET
+  url: https://rickandmortyapi.com/api/character/?name=Abcxyz123
+  params:
+    - name: name
+      value: Abcxyz123
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

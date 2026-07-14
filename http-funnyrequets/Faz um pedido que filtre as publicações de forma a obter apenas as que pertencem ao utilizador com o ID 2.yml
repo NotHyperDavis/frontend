@@ -1,0 +1,18 @@
+info:
+  name: Faz um pedido que filtre as publicações de forma a obter apenas as que pertencem ao utilizador com o ID 2
+  type: http
+
+http:
+  method: GET
+  url: https://jsonplaceholder.typicode.com/posts/?userId=2
+  params:
+    - name: userId
+      value: "2"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
